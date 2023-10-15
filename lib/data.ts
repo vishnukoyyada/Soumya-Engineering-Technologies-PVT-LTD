@@ -1,10 +1,8 @@
 import React from "react";
-import { CgWorkAlt } from "react-icons/cg";
-import { FaReact } from "react-icons/fa";
-import { LuGraduationCap } from "react-icons/lu";
 import corpcommentImg from "@/public/corpcomment.png";
 import rmtdevImg from "@/public/rmtdev.png";
 import wordanalyticsImg from "@/public/wordanalytics.png";
+import { FaBuilding } from 'react-icons/fa';
 
 export const links = [
   {
@@ -20,8 +18,8 @@ export const links = [
     hash: "#projects",
   },
   {
-    name: "Skills",
-    hash: "#skills",
+    name: "Ourexpertise",
+    hash: "#Ourexpertise",
   },
   {
     name: "Experience",
@@ -35,73 +33,62 @@ export const links = [
 
 export const experiencesData = [
   {
-    title: "Graduated bootcamp",
-    location: "Miami, FL",
+    title: "Sanjana Emerlad",
+    location: "Road#2,P & T Colony,Medipally,Near Uppal Bus Depot,Hyderabad-5003",
     description:
-      "I graduated after 6 months of studying. I immediately found a job as a front-end developer.",
-    icon: React.createElement(LuGraduationCap),
-    date: "2019",
+      "Promoters & Builders:M/s. Soumya Engineering Technologies Pvt. Ltd.H.No. 1-19, Road #1, Om Vihar Colony, Medipally Near Uppal Bus Depot, Hyderabad - 500 039.Office Phone: +91 40 6508 5191Contact Details  N. Sadanandam- +91 80088 83379V. Nageswar Rao- +91 90000 91403B.A. Bharath Kumar - +91 9248002329 ",
+    icon: React.createElement(FaBuilding),
+    date: "2020",
   },
   {
-    title: "Front-End Developer",
-    location: "Orlando, FL",
+    title: "Sanjana Residency",
+    location: "Canara nagar busstop P & T colony",
     description:
-      "I worked as a front-end developer for 2 years in 1 job and 1 year in another job. I also upskilled to the full stack.",
-    icon: React.createElement(CgWorkAlt),
-    date: "2019 - 2021",
+      "Promoters & Developers :M/s SANJANA CONSTRUCTIONS Office & Site Address: Plot No. 68, Near Hero Honda Showroom, P & T Colony,Medipally,Ranga Reddy Dist. Hyd - 500 039.Ph: 99488 70191, 9989177781,97044 33222, 98484 43090",
+    icon: React.createElement(FaBuilding),
+    date: "2021",
   },
   {
-    title: "Full-Stack Developer",
-    location: "Houston, TX",
+    title: "Sanjana amrutha nilayam",
+    location: "Om Vihar colony,Medipally Near Uppal Bus Depot,Hyderabad",
     description:
-      "I'm now a full-stack developer working as a freelancer. My stack includes React, Next.js, TypeScript, Tailwind, Prisma and MongoDB. I'm open to full-time opportunities.",
-    icon: React.createElement(FaReact),
-    date: "2021 - present",
+      "Promoters & Builders:M/s. Soumya Engineering Technologies Pvt. Ltd.H.No. 1-19, Om Vihar Colony, Road No. 1Medipally, Near Uppal Bus Depot,Hyderabad - 500 039.Office Phone: +91 40 6508 5191Cell: +91 80088 83379 and 99891 77781",
+    icon: React.createElement(FaBuilding),
+    date: "2021",
   },
 ] as const;
 
 export const projectsData = [
   {
-    title: "CorpComment",
-    description:
-      "I worked as a full-stack developer on this startup project for 2 years. Users can give public feedback to companies.",
-    tags: ["React", "Next.js", "MongoDB", "Tailwind", "Prisma"],
+    title: "Suhas residency",
+    description: "• Peacefully located at Jodimetla cross roads on Hyderabad - Warangal Highway• Very near to Outer Ring Road at Amojiguda.• For work in companies / destination such as Genpact, Infosys, Raheja Mindspace, Singapore City just with in 1-2 km distance.",
+    tags:["ClubHOuse","Intercom System","Electronic survillance"],
     imageUrl: corpcommentImg,
   },
   {
-    title: "rmtDev",
-    description:
-      "Job board for remote developer jobs. I was the front-end developer. It has features like filtering, sorting and pagination.",
-    tags: ["React", "TypeScript", "Next.js", "Tailwind", "Redux"],
+    title: "Harshini Residency",
+    description:"Harshini Residency will give you quite the privacy you seek in life. Imagine a community with just four units on each floor and all of themneatly separated from each other. Here comes a community with exclusive2 BHK homes.",
+      tags: ["Pwerbackup","Utilities","Painting"],
     imageUrl: rmtdevImg,
   },
   {
-    title: "Word Analytics",
-    description:
-      "A public web app for quick analytics on text. It shows word count, character count and social media post limits.",
-    tags: ["React", "Next.js", "SQL", "Tailwind", "Framer"],
+    title: "Sanjana Amrutha Nilayam",
+    description:"Om Vihar Colony, Medipally Near Uppal Bus Depot, Hyderabad - 500039",
+     
+      tags: ["WaterSupply","Colouring","Lift"],
     imageUrl: wordanalyticsImg,
   },
 ] as const;
 
 export const skillsData = [
-  "HTML",
-  "CSS",
-  "JavaScript",
-  "TypeScript",
-  "React",
-  "Next.js",
-  "Node.js",
-  "Git",
-  "Tailwind",
-  "Prisma",
-  "MongoDB",
-  "Redux",
-  "GraphQL",
-  "Apollo",
-  "Express",
-  "PostgreSQL",
-  "Python",
-  "Django",
-  "Framer Motion",
+"100% Vasthu",
+"Exclusisive privacy and superb ventilation",
+"Spacious car parking",
+"structure",
+"Interior",
+"Exterior",
+"colouring",
+"Electrical",
+"Water supply"
+  
 ] as const;
